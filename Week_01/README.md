@@ -1,6 +1,6 @@
 ### 分析Queue和Priority Queue的源码
 
-#### Queue（Java版）
+#### Queue
 
 队列，先进先出，FIFO。
 
@@ -16,7 +16,7 @@ Interface，继承Collection，Iterable接口。
 
 
 
-#### PriorityQueue (Java版)
+#### PriorityQueue
 
 优先队列，Class，实现Collection，Queue等接口，非线程安全的。
 
@@ -75,7 +75,7 @@ Interface，继承Collection，Iterable接口。
     System.out.println(newDepue);
 
     while (newDepue.size() > 0) {
-    System.out.println(newDepue.pollFirst());
+    	System.out.println(newDepue.pollFirst());
     }
 
     System.out.println(newDepue);
