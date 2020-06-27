@@ -24,6 +24,26 @@ Interface，继承Collection，Iterable接口。
 
 元素可以是自然序，也可以根据指定的排序规则。
 
+**如何遍历？**
+
+```java
+	Queue<String> queue = new PriorityQueue<>();
+    queue.add("a");
+    queue.add("e");
+    queue.add("c");
+
+	queue.forEach(a -> System.out.println(a));
+
+    Iterator<String> iterator = queue.iterator();
+    while (iterator.hasNext()) {
+    	System.out.println(iterator.next());
+    }
+ 
+	while(!queue.isEmpty()) {
+		System.out.println(queue.poll());
+	}
+```
+
 
 
 ### 用add first或add last这套新的API改写Deque的代码
