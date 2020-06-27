@@ -18,9 +18,11 @@ Interface，继承Collection，Iterable接口。
 
 #### PriorityQueue (Java版)
 
-优先队列，Class，实现Collection，Queue等接口，非线程安全的。元素必须实现Comparator类。
+优先队列，Class，实现Collection，Queue等接口，非线程安全的。
 
 构造器：初始容量11
+
+元素可以是自然序，也可以根据指定的排序规则。
 
 
 
